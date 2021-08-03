@@ -1,6 +1,6 @@
 import AinulAulia from "../AinulAulia/AinulAulia";
 import AriAyu from "../AriAyu/AriAyu";
-import HomePage from "../HomePage/HomePage";
+import HomePage from "../HomePage";
 
 export const routes = [
     {
