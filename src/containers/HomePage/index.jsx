@@ -1,9 +1,15 @@
 import React from 'react';
 
-const HomePage = () => (
+import styles from './styles.module.css';
+
+import Navbar from './components/Navbar';
+
+const HomePage = () => {
+  return (
     <div>
-        <h3>Halo Menuju Akad!</h3>
-    </div>   
-);
+      <Navbar />
+    </div>
+  )
+}
 
 export default HomePage;
