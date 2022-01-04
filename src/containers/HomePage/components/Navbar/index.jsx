@@ -11,8 +11,7 @@ const Navbar = () => {
     <nav>
       <input type='checkbox' id={styles.check} />
       <label for={styles.check}>
-        <img 
-          className={styles.humberger} src={humberger} id={styles.btn} alt=''/>
+        <img className={styles.humberger} src={humberger} id={styles.btn} alt=''/>
         <img className={styles.close} src={close} id={styles.close} alt=''/>
       </label>
       <img className={styles.mainLogo} src={mainLogo} alt=''/>
