@@ -7,7 +7,11 @@ import Navbar from './components/Navbar';
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar className={styles.navbar} />
+       
+      <div className={styles.content}>
+
+      </div>
     </div>
   )
 }

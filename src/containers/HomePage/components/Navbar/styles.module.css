@@ -1,6 +1,11 @@
 nav {
   height: 80px;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 4px 4px -1px whitesmoke;
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -25,6 +30,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: black;
+  margin-left: 60px;
 }
 
 ul li a:hover {
@@ -40,15 +46,29 @@ label img {
   display: none;
 }
 
+.mainLogo {
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 226px;
+}
+
+.buatUndangan {
+  background-color: #F8F2EE;
+  color: #605D5F;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
 #check {
   display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1076px) {
   .humberger {
     display: block;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .close {
