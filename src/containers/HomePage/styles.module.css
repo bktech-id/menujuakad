@@ -31,3 +31,33 @@
   margin-bottom: 20px;
   color: #605D5F;
 }
+
+.designMobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .designDesktop {
+    display: none;
+  }
+
+  .designMobile {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 12vw;
+  }
+
+  .aboutWording {
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+
+  .aboutWording h1 {
+    font-size: 1.2rem;
+  }
+
+  .aboutWording p {
+    font-size: 0.8rem;
+  }
+}
