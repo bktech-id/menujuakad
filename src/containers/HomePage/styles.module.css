@@ -36,6 +36,10 @@
   display: none;
 }
 
+.about img {
+  z-index: -1;
+}
+
 @media (max-width: 575.98px) {
   .designDesktop {
     display: none;
@@ -49,7 +53,7 @@
   }
 
   .aboutWording {
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-top: 2rem;
   }
 
