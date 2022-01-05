@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './styles.module.css';
 
 import mainDesign from '../../assets/images/mainDesign.png';
-import designMobile from '../../assets/images/designMobile.png';
+import designMobile from '../../assets/images/designMobile2.png';
 import Navbar from './components/Navbar';
 
 const HomePage = () => {
