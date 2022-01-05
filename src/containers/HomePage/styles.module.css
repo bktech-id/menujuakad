@@ -61,7 +61,8 @@
     display: block;
     position: absolute;
     right: 0;
-    width: 100px;
+    width: 30%;
+    max-width: 150px;
   }
 
   .aboutWording {
