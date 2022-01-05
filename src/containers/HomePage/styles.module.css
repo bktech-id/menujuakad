@@ -63,12 +63,12 @@
     right: 0;
     width: 30%;
     max-width: 150px;
-    padding-right: 10px;
   }
 
   .aboutWording {
     padding-left: 1rem;
     padding-top: 2rem;
+    padding-right: 10px;
   }
 
   .aboutWording h1 {
