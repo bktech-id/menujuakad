@@ -60,6 +60,11 @@ label img {
   font-weight: 600;
 }
 
+.buatUndangan:hover {
+  background-color: #FFC299;
+  cursor: pointer;
+}
+
 #check {
   display: none;
 }

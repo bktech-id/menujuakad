@@ -16,11 +16,11 @@ const Navbar = () => {
       </label>
       <img className={styles.mainLogo} src={mainLogo} alt=''/>
       <ul>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>Fitur</a></li>
-        <li><a href='#'>Design</a></li>
-        <li><a href='#'>Contact</a></li>
-        <li><a className={styles.buatUndangan} href='#'>Buat Undangan</a></li>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/'>Fitur</a></li>
+        <li><a href='/'>Design</a></li>
+        <li><a href='/'>Contact</a></li>
+        <li><a className={styles.buatUndangan} href='/'>Buat Undangan</a></li>
       </ul>
     </nav>
   );

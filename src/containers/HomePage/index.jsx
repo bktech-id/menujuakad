@@ -21,10 +21,10 @@ const HomePage = () => {
           <button className={styles.buatUndangan} href='#'>Buat Undangan</button>
         </div>
         <div>
-        <img className={styles.designDesktop} src={mainDesign} />
+        <img className={styles.designDesktop} src={mainDesign} alt='' />
         </div>
         <div>
-        <img className={styles.designMobile} src={designMobile} />
+        <img className={styles.designMobile} src={designMobile} alt='' />
         </div>
       </div>
     </div>
