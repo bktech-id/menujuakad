@@ -63,6 +63,7 @@
     right: 0;
     width: 30%;
     max-width: 150px;
+    padding-right: 10px;
   }
 
   .aboutWording {
