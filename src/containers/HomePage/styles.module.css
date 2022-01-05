@@ -36,7 +36,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   .designDesktop {
     display: none;
   }
@@ -45,7 +45,7 @@
     display: block;
     position: absolute;
     right: 0;
-    width: 12vw;
+    width: 100px;
   }
 
   .aboutWording {
