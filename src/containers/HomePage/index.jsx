@@ -20,8 +20,12 @@ const HomePage = () => {
           </p>
           <button className={styles.buatUndangan} href='#'>Buat Undangan</button>
         </div>
+        <div>
         <img className={styles.designDesktop} src={mainDesign} />
+        </div>
+        <div>
         <img className={styles.designMobile} src={designMobile} />
+        </div>
       </div>
     </div>
   )

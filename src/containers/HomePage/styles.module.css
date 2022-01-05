@@ -79,3 +79,21 @@
     font-size: 0.6rem;
   }
 }
+
+@media (min-width: 576px) {
+  .designDesktop {
+    min-width: 40%;
+  }
+
+  .aboutWording {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .aboutWording h1 {
+    font-size: 1.3rem;
+  }
+
+  .aboutWording p {
+    font-size: 0.8rem;
+  }
+}
