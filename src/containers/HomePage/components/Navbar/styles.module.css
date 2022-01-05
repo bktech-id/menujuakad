@@ -84,7 +84,7 @@ label img {
     right: -100%;
     top: 80px;
     text-align: center;
-    background-color: rgb(240, 240, 240, .0);
+    background-color: white;
     transition: .5s;
   }
 
