@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './styles.module.css';
 
 import mainDesign from '../../assets/images/mainDesign.png';
-import designMobile from '../../assets/images/designMobile2.png';
+import designMobile from '../../assets/images/designMobile.png';
 import Navbar from './components/Navbar';
 
 const HomePage = () => {
@@ -18,6 +18,7 @@ const HomePage = () => {
             Pilih template yang sesuai dan keinginanmu lalu<br />
             sebar ke siapapun yang kamu inginkan
           </p>
+          <button className={styles.buatUndangan} href='#'>Buat Undangan</button>
         </div>
         <img className={styles.designDesktop} src={mainDesign} />
         <img className={styles.designMobile} src={designMobile} />

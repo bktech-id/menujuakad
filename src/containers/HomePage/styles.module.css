@@ -40,6 +40,18 @@
   z-index: -1;
 }
 
+.buatUndangan {
+  background-color: #F8F2EE;
+  color: #605D5F;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-weight: 600;
+  width: 100px;
+  border: none;
+  font-size: 0.6rem;
+  margin-top: 10px;
+}
+
 @media (max-width: 575.98px) {
   .designDesktop {
     display: none;
